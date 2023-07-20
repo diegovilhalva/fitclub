@@ -5,6 +5,8 @@ import {plansData} from '../../data/plansData'
 const Plans = () => {
     return(
        <div className="plans-container">
+        <div className="blur plans-blur-l"></div>
+        <div className="blur plans-blur-r"></div>
             <div className="programs-header" style={{gap:'2rem'}}>
                 <span>Conheça</span>
                 <span>Os Nossos</span>
@@ -24,7 +26,7 @@ const Plans = () => {
                             ))}
                         </div>
                         <div>
-                            <span>Saiba Mais -></span>
+                            <span>Saiba Mais -> </span>
                         </div>
                         <button className="btn">Assinar</button>
                     </div>
